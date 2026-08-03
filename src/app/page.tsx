@@ -175,8 +175,22 @@ export default function Home() {
               </a>
             </div>
           </div>
-          <div className="mt-8 pt-8 border-t border-slate-200 dark:border-slate-800 text-center text-sm text-slate-600 dark:text-slate-400">
-            © {new Date().getFullYear()} Ready Get. All rights reserved.
+          <div className="mt-8 pt-8 border-t border-slate-200 dark:border-slate-800 flex flex-col sm:flex-row justify-between items-center gap-4 text-sm text-slate-600 dark:text-slate-400">
+            <p>© {new Date().getFullYear()} Ready Get LLC. All rights reserved.</p>
+            <div className="flex gap-6">
+              <a
+                href="https://trypostie.com/privacy-policy"
+                className="hover:text-slate-900 dark:hover:text-white transition-colors"
+              >
+                Privacy Policy
+              </a>
+              <a
+                href="https://trypostie.com/terms-of-service"
+                className="hover:text-slate-900 dark:hover:text-white transition-colors"
+              >
+                Terms of Service
+              </a>
+            </div>
           </div>
         </div>
       </footer>
